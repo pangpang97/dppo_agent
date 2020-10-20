@@ -640,7 +640,7 @@ class EnvironmentMpsen:
                 self.__battle_lineup['template'][pos]):
                     continue
             elif action_index < self.__len_exchange_pos:
-                continue
+                #continue
                 pos1 = action[0]
                 pos2 = action[1]
                 hero1 = self.__battle_lineup['template'][pos1]
